@@ -89,14 +89,6 @@ import {
       icon: tailwind,
     },
     {
-      name: "Node JS",
-      icon: nodejs,
-    },
-    {
-      name: "MongoDB",
-      icon: mongodb,
-    },
-    {
       name: "Three JS",
       icon: threejs,
     },
@@ -107,10 +99,6 @@ import {
     {
       name: "figma",
       icon: figma,
-    },
-    {
-      name: "docker",
-      icon: docker,
     },
   ];
   
@@ -203,11 +191,11 @@ import {
         "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
       tags: [
         {
-          name: "react",
+          name: "nextjs",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "restapi",
           color: "green-text-gradient",
         },
         {
@@ -216,49 +204,58 @@ import {
         },
       ],
       image: carrent,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://carhub-by-webuzk.netlify.app/",
     },
     {
-      name: "Job IT",
+      name: "Gericht Restaurant",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "A restaurant website with an attractive introduction and an easy-to-use reservation system that enhances the restaurant's online presence and improves the booking process.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
-          color: "green-text-gradient",
-        },
-        {
-          name: "scss",
+          name: "tailwind",
           color: "pink-text-gradient",
         },
       ],
       image: jobit,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://genricht.netlify.app/",
     },
     {
-      name: "Trip Guide",
+      name: "Bank Application",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "I am pleased to present a frontend bank application I have developed, offering a comprehensive suite of banking functions. This user-friendly platform streamlines financial transactions and enhances the banking experience, showcasing my expertise in frontend development.",
       tags: [
         {
-          name: "nextjs",
+          name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
+          name: "tailwind",
           color: "pink-text-gradient",
         },
       ],
       image: tripguide,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://bank-app-webuzk.netlify.app/",
+    },
+    {
+      name: "Bank Application",
+      description:
+        "I am pleased to present a frontend bank application I have developed, offering a comprehensive suite of banking functions. This user-friendly platform streamlines financial transactions and enhances the banking experience, showcasing my expertise in frontend development.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "tailwind",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: tripguide,
+      source_code_link: "https://bank-app-webuzk.netlify.app/",
     },
   ];
   
