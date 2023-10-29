@@ -160,7 +160,7 @@ import {
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+        "I thought it was impossible to make a website as beautiful as our product, but Hamza proved me wrong.",
       name: "Sara Lee",
       designation: "CFO",
       company: "Acme Co",
@@ -168,7 +168,7 @@ import {
     },
     {
       testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
+        "I've never met a web developer who truly cares about their clients' success like Hamza does.",
       name: "Chris Brown",
       designation: "COO",
       company: "DEF Corp",
@@ -176,7 +176,7 @@ import {
     },
     {
       testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+        "After Hamza optimized our website, our traffic increased by 50%. We can't thank them enough!",
       name: "Lisa Wang",
       designation: "CTO",
       company: "456 Enterprises",
@@ -191,11 +191,11 @@ import {
         "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
       tags: [
         {
-          name: "nextjs",
+          name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "mongodb",
           color: "green-text-gradient",
         },
         {
@@ -204,58 +204,49 @@ import {
         },
       ],
       image: carrent,
-      source_code_link: "https://carhub-by-webuzk.netlify.app/",
+      source_code_link: "https://github.com/",
     },
     {
-      name: "Gericht Restaurant",
+      name: "Job IT",
       description:
-        "A restaurant website with an attractive introduction and an easy-to-use reservation system that enhances the restaurant's online presence and improves the booking process.",
+        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "restapi",
+          color: "green-text-gradient",
+        },
+        {
+          name: "scss",
           color: "pink-text-gradient",
         },
       ],
       image: jobit,
-      source_code_link: "https://genricht.netlify.app/",
+      source_code_link: "https://github.com/",
     },
     {
-      name: "Bank Application",
+      name: "Trip Guide",
       description:
-        "I am pleased to present a frontend bank application I have developed, offering a comprehensive suite of banking functions. This user-friendly platform streamlines financial transactions and enhances the banking experience, showcasing my expertise in frontend development.",
+        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
       tags: [
         {
-          name: "react",
+          name: "nextjs",
           color: "blue-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "supabase",
+          color: "green-text-gradient",
+        },
+        {
+          name: "css",
           color: "pink-text-gradient",
         },
       ],
       image: tripguide,
-      source_code_link: "https://bank-app-webuzk.netlify.app/",
-    },
-    {
-      name: "Bank Application",
-      description:
-        "I am pleased to present a frontend bank application I have developed, offering a comprehensive suite of banking functions. This user-friendly platform streamlines financial transactions and enhances the banking experience, showcasing my expertise in frontend development.",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "tailwind",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: tripguide,
-      source_code_link: "https://bank-app-webuzk.netlify.app/",
+      source_code_link: "https://github.com/",
     },
   ];
   
