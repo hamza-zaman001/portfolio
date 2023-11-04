@@ -15,14 +15,16 @@ import {
     git,
     figma,
     docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
     carrent,
     jobit,
     tripguide,
     threejs,
+    restaurant,
+    nike,
+    dashboard,
+    fiverr,
+    care,
+    careshifa,
   } from "../assets";
   
   export const navLinks = [
@@ -104,55 +106,42 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
-      iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      title: "Front End Developer",
+      company_name: "Fiverr",
+      icon: fiverr,
+      iconBg: "#E6DEDD",
+      date: "March 2020 - Jan 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        " Demonstrated proficiency in front-end development using React.js and HTML to create responsive and visually appealing websites and web applications.",
+        " Known for crafting visually captivating and user-friendly designs that enhance user engagement and convey a strong sense of aesthetics.",
+        " Successfully completed numerous projects on Fiverr, receiving positive reviews and high ratings from satisfied clients, demonstrating reliability and expertise in the field.",
+        " Committed to understanding clients' unique needs and translating their ideas into functional, beautiful, and highly interactive digital experiences, providing top-notch customer service throughout the process.",
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
-      iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      title: "Implimentation Engineer",
+      company_name: "CARE pvt ltd",
+      icon: care,
+      iconBg: "#383E56",
+      date: "Jun 2023 - Aug 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Proficient in designing and customizing Enterprise Resource Planning (ERP) systems to streamline business processes, improve efficiency, and meet the specific needs of clients.",
+        "Skilled in writing complex SQL queries to extract, transform, and analyze data within ERP systems, enabling data-driven decision-making for clients.",
+        "Proven track record of successful ERP system implementations, optimizing workflows, and ensuring a smooth transition for organizations, resulting in increased productivity and cost savings.",
+        "Focused on understanding clients' unique business requirements and delivering tailored ERP solutions that meet their goals and exceed their expectations, with a commitment to ongoing support and maintenance.",
       ],
     },
     {
       title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
+      company_name: "CARE Shifa",
+      icon: careshifa,
       iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      date: "July 2023 - Sept 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "A versatile web developer skilled in both front-end design and development, creating visually appealing and functional websites.",
+        "Proficient in utilizing React and Next.js to build interactive and high-performance web applications, ensuring a seamless user experience.",
+        "Prioritizing user needs and experience, creating front-end designs that resonate with target audiences and delivering web solutions that cater to client objectives.",
+        "Ensuring your web projects are responsive and work flawlessly on various devices and screen sizes, offering accessibility and engagement across platforms.",
       ],
     },
   ];
@@ -191,7 +180,7 @@ import {
         "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
       tags: [
         {
-          name: "react",
+          name: "nextjs",
           color: "blue-text-gradient",
         },
         {
@@ -204,72 +193,110 @@ import {
         },
       ],
       image: carrent,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/hamza-zaman001/car_showcase",
     },
     {
-      name: "Job IT",
+      name: "Bank App",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Web application that show-cases an eye-catching front end for the online bank name HooBank. It enables online card payments, reviews from the customers and etc.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "tailwind",
           color: "green-text-gradient",
-        },
-        {
-          name: "scss",
-          color: "pink-text-gradient",
         },
       ],
       image: jobit,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/hamza-zaman001/bank_app",
     },
     {
-      name: "Trip Guide",
+      name: "GPT-3",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "A comprehensive Web App that shows the introduction about the GPT-3, It gives user a modern AI looking front end and catches their attention to interact with the site.",
       tags: [
         {
-          name: "nextjs",
+          name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "css",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "javascript",
           color: "pink-text-gradient",
         },
       ],
       image: tripguide,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/hamza-zaman001/GPT3_site",
     },
     // CHANGE THIS TO SHOWCASE ANOTHER WEBSITE!
-    // {
-    //   name: "Trip Guide",
-    //   description:
-    //     "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    //   tags: [
-    //     {
-    //       name: "nextjs",
-    //       color: "blue-text-gradient",
-    //     },
-    //     {
-    //       name: "supabase",
-    //       color: "green-text-gradient",
-    //     },
-    //     {
-    //       name: "css",
-    //       color: "pink-text-gradient",
-    //     },
-    //   ],
-    //   image: tripguide,
-    //   source_code_link: "https://github.com/",
-    // },
+    {
+      name: "Restaurant App",
+      description:
+        "An elegant looking restaurant application. It is the whole front end of the restaurant app which only needs a database for the bookings and we're good to go!",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "css",
+          color: "green-text-gradient",
+        },
+        {
+          name: "javascript",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: restaurant,
+      source_code_link: "https://github.com/hamza-zaman001/restaurant-app",
+    },
+    {
+      name: "Nike Store",
+      description:
+        "A web-based store for Nike that gives the introduction for the Nike and their products. It allows users to scroll through various products and Buy them.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "css",
+          color: "green-text-gradient",
+        },
+        {
+          name: "vite",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: nike,
+      source_code_link: "https://github.com/hamza-zaman001/nike-landing-page",
+    },
+    {
+      name: "Dashboard",
+      description:
+        "A web-based dashboard of Shoppy, It uses Syncfusion charts for different functions. It gives all the functionalities of a dashboard which are required for an Industry.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "tailwind",
+          color: "green-text-gradient",
+        },
+        {
+          name: "syncfusion",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: dashboard,
+      source_code_link: "https://github.com/hamza-zaman001/dashboard1",
+    },
   ];
   
   export { services, technologies, experiences, testimonials, projects };

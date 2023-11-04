@@ -29,14 +29,6 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link }
             >
               <img src={github} alt='github' className='w-1/2 h-1/2 object-contain' />
             </div>
-
-            {/* change source_code_link, add png of the project logos, and add the prop in the upper ProjectCard element */}
-            {/* <div
-              onClick={() => window.open (source_code_link, "_blank")}
-              className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
-            >
-              <img src={github} alt='github' className='w-1/2 h-1/2 object-contain' />
-            </div> */}
           </div>
         </div>
 
