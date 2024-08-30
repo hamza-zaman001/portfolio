@@ -112,18 +112,18 @@ import {
       iconBg: "#E6DEDD",
       date: "March 2020 - Jan 2023",
       points: [
-        " Demonstrated proficiency in front-end development using React.js and HTML to create responsive and visually appealing websites and web applications.",
-        " Known for crafting visually captivating and user-friendly designs that enhance user engagement and convey a strong sense of aesthetics.",
-        " Successfully completed numerous projects on Fiverr, receiving positive reviews and high ratings from satisfied clients, demonstrating reliability and expertise in the field.",
+        " Created over 50 customized websites tailored to client specifications, achieving a 95% satisfaction rate and high client retention.",
+        " Received 40+ 5-star reviews and converted 20% of clients into repeat customers, boosting long-term revenue by 15%.",
+        " Delivered high-quality, pixel-perfect designs and ensured consistent client feedback and repeat business.",
         " Committed to understanding clients' unique needs and translating their ideas into functional, beautiful, and highly interactive digital experiences, providing top-notch customer service throughout the process.",
       ],
     },
     {
       title: "Implimentation Engineer",
-      company_name: "CARE pvt ltd",
+      company_name: "Center For Advanced Research in Engineering",
       icon: care,
       iconBg: "#383E56",
-      date: "Jun 2023 - Aug 2023",
+      date: "Jun 2023 - July 2023",
       points: [
         "Proficient in designing and customizing Enterprise Resource Planning (ERP) systems to streamline business processes, improve efficiency, and meet the specific needs of clients.",
         "Skilled in writing complex SQL queries to extract, transform, and analyze data within ERP systems, enabling data-driven decision-making for clients.",
@@ -133,15 +133,27 @@ import {
     },
     {
       title: "Web Developer",
-      company_name: "CARE Shifa",
+      company_name: "Center For Advanced Research in Engineering",
       icon: careshifa,
       iconBg: "#383E56",
-      date: "July 2023 - Sept 2023",
+      date: "Aug 2023 - Sept 2023",
       points: [
         "A versatile web developer skilled in both front-end design and development, creating visually appealing and functional websites.",
         "Proficient in utilizing React and Next.js to build interactive and high-performance web applications, ensuring a seamless user experience.",
         "Prioritizing user needs and experience, creating front-end designs that resonate with target audiences and delivering web solutions that cater to client objectives.",
         "Ensuring your web projects are responsive and work flawlessly on various devices and screen sizes, offering accessibility and engagement across platforms.",
+      ],
+    },
+    {
+      title: "Embedded Software Engineer",
+      company_name: "Center For Advanced Research in Engineering",
+      icon: care,
+      iconBg: "#383E56",
+      date: "July 2024 - Present",
+      points: [
+        "Developed and implemented C++ server applications on ARM systems to process radar data and convert it into the Chinese radar format, enhancing data interoperability and integration with existing systems.",
+        "Created comprehensive Python bindings for multiple structures and functions, enabling a 40% increase in the efficiency of SOAP services usage within the main application, significantly streamlining software integration and reducing processing time by 30%.",
+        "Designed and developed various applications in .NET, contributing to the enhancement of software solutions and expanding the capabilities of internal tools and systems.",
       ],
     },
   ];
@@ -212,27 +224,27 @@ import {
       image: jobit,
       source_code_link: "https://github.com/hamza-zaman001/bank_app",
     },
-    {
-      name: "GPT-3",
-      description:
-        "A comprehensive Web App that shows the introduction about the GPT-3, It gives user a modern AI looking front end and catches their attention to interact with the site.",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "css",
-          color: "green-text-gradient",
-        },
-        {
-          name: "javascript",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: tripguide,
-      source_code_link: "https://github.com/hamza-zaman001/GPT3_site",
-    },
+    // {
+    //   name: "GPT-3",
+    //   description:
+    //     "A comprehensive Web App that shows the introduction about the GPT-3, It gives user a modern AI looking front end and catches their attention to interact with the site.",
+    //   tags: [
+    //     {
+    //       name: "react",
+    //       color: "blue-text-gradient",
+    //     },
+    //     {
+    //       name: "css",
+    //       color: "green-text-gradient",
+    //     },
+    //     {
+    //       name: "javascript",
+    //       color: "pink-text-gradient",
+    //     },
+    //   ],
+    //   image: tripguide,
+    //   source_code_link: "https://github.com/hamza-zaman001/GPT3_site",
+    // },
     // CHANGE THIS TO SHOWCASE ANOTHER WEBSITE!
     {
       name: "Restaurant App",
@@ -255,48 +267,48 @@ import {
       image: restaurant,
       source_code_link: "https://github.com/hamza-zaman001/restaurant-app",
     },
-    {
-      name: "Nike Store",
-      description:
-        "A web-based store for Nike that gives the introduction for the Nike and their products. It allows users to scroll through various products and Buy them.",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "css",
-          color: "green-text-gradient",
-        },
-        {
-          name: "vite",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: nike,
-      source_code_link: "https://github.com/hamza-zaman001/nike-landing-page",
-    },
-    {
-      name: "Dashboard",
-      description:
-        "A web-based dashboard of Shoppy, It uses Syncfusion charts for different functions. It gives all the functionalities of a dashboard which are required for an Industry.",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "tailwind",
-          color: "green-text-gradient",
-        },
-        {
-          name: "syncfusion",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: dashboard,
-      source_code_link: "https://github.com/hamza-zaman001/dashboard1",
-    },
+    // {
+    //   name: "Nike Store",
+    //   description:
+    //     "A web-based store for Nike that gives the introduction for the Nike and their products. It allows users to scroll through various products and Buy them.",
+    //   tags: [
+    //     {
+    //       name: "react",
+    //       color: "blue-text-gradient",
+    //     },
+    //     {
+    //       name: "css",
+    //       color: "green-text-gradient",
+    //     },
+    //     {
+    //       name: "vite",
+    //       color: "pink-text-gradient",
+    //     },
+    //   ],
+    //   image: nike,
+    //   source_code_link: "https://github.com/hamza-zaman001/nike-landing-page",
+    // },
+    // {
+    //   name: "Dashboard",
+    //   description:
+    //     "A web-based dashboard of Shoppy, It uses Syncfusion charts for different functions. It gives all the functionalities of a dashboard which are required for an Industry.",
+    //   tags: [
+    //     {
+    //       name: "react",
+    //       color: "blue-text-gradient",
+    //     },
+    //     {
+    //       name: "tailwind",
+    //       color: "green-text-gradient",
+    //     },
+    //     {
+    //       name: "syncfusion",
+    //       color: "pink-text-gradient",
+    //     },
+    //   ],
+    //   image: dashboard,
+    //   source_code_link: "https://github.com/hamza-zaman001/dashboard1",
+    // },
   ];
   
   export { services, technologies, experiences, testimonials, projects };
