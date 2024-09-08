@@ -224,27 +224,27 @@ import {
       image: jobit,
       source_code_link: "https://github.com/hamza-zaman001/bank_app",
     },
-    // {
-    //   name: "GPT-3",
-    //   description:
-    //     "A comprehensive Web App that shows the introduction about the GPT-3, It gives user a modern AI looking front end and catches their attention to interact with the site.",
-    //   tags: [
-    //     {
-    //       name: "react",
-    //       color: "blue-text-gradient",
-    //     },
-    //     {
-    //       name: "css",
-    //       color: "green-text-gradient",
-    //     },
-    //     {
-    //       name: "javascript",
-    //       color: "pink-text-gradient",
-    //     },
-    //   ],
-    //   image: tripguide,
-    //   source_code_link: "https://github.com/hamza-zaman001/GPT3_site",
-    // },
+    {
+      name: "GPT-3",
+      description:
+        "A comprehensive Web App that shows the introduction about the GPT-3, It gives user a modern AI looking front end and catches their attention to interact with the site.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "css",
+          color: "green-text-gradient",
+        },
+        {
+          name: "javascript",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: tripguide,
+      source_code_link: "https://github.com/hamza-zaman001/GPT3_site",
+    },
     // CHANGE THIS TO SHOWCASE ANOTHER WEBSITE!
     {
       name: "Restaurant App",
@@ -267,48 +267,48 @@ import {
       image: restaurant,
       source_code_link: "https://github.com/hamza-zaman001/restaurant-app",
     },
-    // {
-    //   name: "Nike Store",
-    //   description:
-    //     "A web-based store for Nike that gives the introduction for the Nike and their products. It allows users to scroll through various products and Buy them.",
-    //   tags: [
-    //     {
-    //       name: "react",
-    //       color: "blue-text-gradient",
-    //     },
-    //     {
-    //       name: "css",
-    //       color: "green-text-gradient",
-    //     },
-    //     {
-    //       name: "vite",
-    //       color: "pink-text-gradient",
-    //     },
-    //   ],
-    //   image: nike,
-    //   source_code_link: "https://github.com/hamza-zaman001/nike-landing-page",
-    // },
-    // {
-    //   name: "Dashboard",
-    //   description:
-    //     "A web-based dashboard of Shoppy, It uses Syncfusion charts for different functions. It gives all the functionalities of a dashboard which are required for an Industry.",
-    //   tags: [
-    //     {
-    //       name: "react",
-    //       color: "blue-text-gradient",
-    //     },
-    //     {
-    //       name: "tailwind",
-    //       color: "green-text-gradient",
-    //     },
-    //     {
-    //       name: "syncfusion",
-    //       color: "pink-text-gradient",
-    //     },
-    //   ],
-    //   image: dashboard,
-    //   source_code_link: "https://github.com/hamza-zaman001/dashboard1",
-    // },
+    {
+      name: "Nike Store",
+      description:
+        "A web-based store for Nike that gives the introduction for the Nike and their products. It allows users to scroll through various products and Buy them.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "css",
+          color: "green-text-gradient",
+        },
+        {
+          name: "vite",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: nike,
+      source_code_link: "https://github.com/hamza-zaman001/nike-landing-page",
+    },
+    {
+      name: "Dashboard",
+      description:
+        "A web-based dashboard of Shoppy, It uses Syncfusion charts for different functions. It gives all the functionalities of a dashboard which are required for an Industry.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "tailwind",
+          color: "green-text-gradient",
+        },
+        {
+          name: "syncfusion",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: dashboard,
+      source_code_link: "https://github.com/hamza-zaman001/dashboard1",
+    },
   ];
   
   export { services, technologies, experiences, testimonials, projects };
