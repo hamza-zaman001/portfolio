@@ -106,29 +106,15 @@ import {
   
   const experiences = [
     {
-      title: "Front End Developer",
-      company_name: "Fiverr",
-      icon: fiverr,
-      iconBg: "#E6DEDD",
-      date: "March 2020 - Jan 2023",
-      points: [
-        " Created over 50 customized websites tailored to client specifications, achieving a 95% satisfaction rate and high client retention.",
-        " Received 40+ 5-star reviews and converted 20% of clients into repeat customers, boosting long-term revenue by 15%.",
-        " Delivered high-quality, pixel-perfect designs and ensured consistent client feedback and repeat business.",
-        " Committed to understanding clients' unique needs and translating their ideas into functional, beautiful, and highly interactive digital experiences, providing top-notch customer service throughout the process.",
-      ],
-    },
-    {
-      title: "Implimentation Engineer",
+      title: "Software Engineer",
       company_name: "Center For Advanced Research in Engineering",
       icon: care,
       iconBg: "#383E56",
-      date: "Jun 2023 - July 2023",
+      date: "July 2024 - Present",
       points: [
-        "Proficient in designing and customizing Enterprise Resource Planning (ERP) systems to streamline business processes, improve efficiency, and meet the specific needs of clients.",
-        "Skilled in writing complex SQL queries to extract, transform, and analyze data within ERP systems, enabling data-driven decision-making for clients.",
-        "Proven track record of successful ERP system implementations, optimizing workflows, and ensuring a smooth transition for organizations, resulting in increased productivity and cost savings.",
-        "Focused on understanding clients' unique business requirements and delivering tailored ERP solutions that meet their goals and exceed their expectations, with a commitment to ongoing support and maintenance.",
+        "Developed and implemented C++ server applications on ARM systems to process radar data and convert it into the Chinese radar format, enhancing data interoperability and integration with existing systems.",
+        "Created comprehensive Python bindings for multiple structures and functions, enabling a 40% increase in the efficiency of SOAP services usage within the main application, significantly streamlining software integration and reducing processing time by 30%.",
+        "Designed and developed various applications in .NET, contributing to the enhancement of software solutions and expanding the capabilities of internal tools and systems.",
       ],
     },
     {
@@ -145,15 +131,29 @@ import {
       ],
     },
     {
-      title: "Embedded Software Engineer",
+      title: "Implimentation Engineer",
       company_name: "Center For Advanced Research in Engineering",
       icon: care,
       iconBg: "#383E56",
-      date: "July 2024 - Present",
+      date: "Jun 2023 - July 2023",
       points: [
-        "Developed and implemented C++ server applications on ARM systems to process radar data and convert it into the Chinese radar format, enhancing data interoperability and integration with existing systems.",
-        "Created comprehensive Python bindings for multiple structures and functions, enabling a 40% increase in the efficiency of SOAP services usage within the main application, significantly streamlining software integration and reducing processing time by 30%.",
-        "Designed and developed various applications in .NET, contributing to the enhancement of software solutions and expanding the capabilities of internal tools and systems.",
+        "Proficient in designing and customizing Enterprise Resource Planning (ERP) systems to streamline business processes, improve efficiency, and meet the specific needs of clients.",
+        "Skilled in writing complex SQL queries to extract, transform, and analyze data within ERP systems, enabling data-driven decision-making for clients.",
+        "Proven track record of successful ERP system implementations, optimizing workflows, and ensuring a smooth transition for organizations, resulting in increased productivity and cost savings.",
+        "Focused on understanding clients' unique business requirements and delivering tailored ERP solutions that meet their goals and exceed their expectations, with a commitment to ongoing support and maintenance.",
+      ],
+    },
+    {
+      title: "Front End Developer",
+      company_name: "Fiverr",
+      icon: fiverr,
+      iconBg: "#E6DEDD",
+      date: "March 2020 - Jan 2023",
+      points: [
+        " Created over 50 customized websites tailored to client specifications, achieving a 95% satisfaction rate and high client retention.",
+        " Received 40+ 5-star reviews and converted 20% of clients into repeat customers, boosting long-term revenue by 15%.",
+        " Delivered high-quality, pixel-perfect designs and ensured consistent client feedback and repeat business.",
+        " Committed to understanding clients' unique needs and translating their ideas into functional, beautiful, and highly interactive digital experiences, providing top-notch customer service throughout the process.",
       ],
     },
   ];
