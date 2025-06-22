@@ -25,6 +25,10 @@ import {
     fiverr,
     care,
     careshifa,
+    nastp,
+    cplus,
+    qt,
+    opengl,
   } from "../assets";
   
   export const navLinks = [
@@ -75,16 +79,8 @@ import {
       icon: javascript,
     },
     {
-      name: "TypeScript",
-      icon: typescript,
-    },
-    {
       name: "React JS",
       icon: reactjs,
-    },
-    {
-      name: "Redux Toolkit",
-      icon: redux,
     },
     {
       name: "Tailwind CSS",
@@ -95,22 +91,42 @@ import {
       icon: threejs,
     },
     {
-      name: "git",
-      icon: git,
+      name: "Figma",
+      icon: figma,
     },
     {
-      name: "figma",
-      icon: figma,
+      name: "C++",
+      icon: cplus,
+    },
+    {
+      name: "qt",
+      icon: qt,
+    },
+    {
+      name: "OpenGL",
+      icon: opengl,
     },
   ];
   
   const experiences = [
     {
+      title: "Software Developer",
+      company_name: "NASTP",
+      icon: nastp,
+      iconBg: "#383E56",
+      date: "April 2025 - Present",
+      points: [
+        "Developed C++ simulation modules with OpenGL visualization, ensuring seamless interoperability with other in-house simulations through the DIS protocol,",
+        "Implemented socket programming for real-time communication between distributed simulations, enhancing data exchange reliability and reducing latency,",
+        "Built Qt-based tools for configuring and monitoring simulations, improving usability while maintaining full compatibility across interoperable systems.",
+      ],
+    },
+    {
       title: "Software Engineer",
       company_name: "Center For Advanced Research in Engineering",
       icon: care,
       iconBg: "#383E56",
-      date: "July 2024 - Present",
+      date: "July 2024 - April 2024",
       points: [
         "Developed and implemented C++ server applications on ARM systems to process radar data and convert it into the Chinese radar format, enhancing data interoperability and integration with existing systems.",
         "Created comprehensive Python bindings for multiple structures and functions, enabling a 40% increase in the efficiency of SOAP services usage within the main application, significantly streamlining software integration and reducing processing time by 30%.",

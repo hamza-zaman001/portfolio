@@ -20,10 +20,14 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import cplus from "./tech/c++.png";
+import qt from "./tech/qt.png";
+import opengl from "./tech/OpenGL.png";
 
 import fiverr from "./company/fiverr.png";
 import care from "./company/care.png";
 import careshifa from "./company/careshifa.png";
+import nastp from "./company/nastp_logo.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -62,5 +66,9 @@ export {
   nike,
   care,
   careshifa,
+  nastp,
   dashboard,
+  cplus,
+  qt,
+  opengl,
 };
